@@ -145,7 +145,7 @@ for record_no in range(0,total_records,records_per_file):
 end_time = datetime.datetime.now()
 print(f"executed_duration: {end_time - start_time}" + " (m)seconds")
 logging.debug("=********** End of the script **********=")
-print("File successful")
+print("Files Generated successful")
 
 
 
